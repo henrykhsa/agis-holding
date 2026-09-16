@@ -380,6 +380,7 @@ O cargo efetivo e resolvido por `tenantId` — um usuario pode ter roles diferen
 
 ### Longo Prazo
 
+- [ ] **Integração com Delivery Engine** — Consumir a API do Motor de Integração de Delivery (produto independente do ecossistema Agis) para receber pedidos iFood/99Food/Rappi diretamente no POS via webhook, com notificação em tempo real e impressão térmica via Print Agent. ([RFC Técnica](../docs/features/delivery-integration-engine.md))
 - [ ] MFA para Alta Gestao
 - [ ] Integracao com channel managers (OTAs)
 - [ ] App mobile (React Native)

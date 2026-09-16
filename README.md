@@ -39,15 +39,16 @@ Construir um ecossistema de produtos de software que resolva problemas reais de 
                         │  Holding de Tech    │
                         └────────┬────────────┘
                                  │
-                 ┌───────────────┼───────────────┐
-                 │                               │
-    ┌────────────▼────────────┐    ┌────────────▼────────────┐
-    │      LAURUS CLOUD       │    │          SALV           │
-    │         (B2B)           │    │         (B2C)           │
-    │                         │    │                         │
-    │  SaaS de Gestão         │    │  Educação & Gestão      │
-    │  Corporativa + PMS/POS  │    │  Financeira Pessoal     │
-    └─────────────────────────┘    └─────────────────────────┘
+         ┌───────────────────────┼───────────────────────┐
+         │                       │                       │
+┌────────▼────────────┐ ┌───────▼───────────────┐ ┌────▼────────────────────┐
+│   LAURUS CLOUD      │ │   DELIVERY ENGINE     │ │         SALV            │
+│      (B2B)          │ │      (B2B2B)          │ │        (B2C)            │
+│                     │ │                       │ │                         │
+│  SaaS de Gestão     │ │  Hub de Integração    │ │  Educação & Gestão      │
+│  Corporativa + PMS  │ │  de Delivery          │ │  Financeira Pessoal     │
+│  + POS              │ │  (API as a Service)   │ │                         │
+└─────────────────────┘ └───────────────────────┘ └─────────────────────────┘
 ```
 
 ---
@@ -64,6 +65,8 @@ Construir um ecossistema de produtos de software que resolva problemas reais de 
 | Status | Em produção |
 
 PMS completo com reservas, check-in/out, turnos de caixa, RBAC com 16 roles, auditoria noturna e integração POS para alimentos e bebidas. Arquitetura multi-tenant com isolamento total por cliente.
+
+**Em desenvolvimento futuro:** Motor de Integração de Delivery — produto SaaS independente (API as a Service) que centraliza pedidos de marketplaces (iFood, 99Food, Rappi) e os entrega via webhook padronizado para qualquer sistema de PDV. O Laurus Cloud será o Cliente Nº 1 a consumir essa API. ([Documentação técnica →](./docs/features/delivery-integration-engine.md))
 
 **[Documentação completa →](./Laurus-Cloud/README.md)**
 
