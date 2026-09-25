@@ -6,6 +6,8 @@
 
 <h1 align="center">Agis Group</h1>
 
+>  **Nota:** Este é o repositório central de arquitetura do ecossistema Agis Group. O seu conteúdo é proprietário e mantido público exclusivamente como demonstração de portefólio das minhas competências em Engenharia de Software, System Design e Visão de Produto.
+
 <p align="center">
   <strong>Tecnologia que move negócios. Software que move pessoas.</strong>
 </p>
